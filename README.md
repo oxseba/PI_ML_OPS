@@ -23,8 +23,6 @@ Crear la columna con el retorno de inversión, llamada return con los campos rev
 
 Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,vote_count,poster_path y homepage.
 
-Se pueden visualizar las transformaciones y los análisis realizados en el siguiente archivo XXXXXXXXXX
-
 API: 
 
 Se solicitó efectuar la disponibilización de los siguientes endpoints a través del Framework FastAPI:
@@ -41,5 +39,5 @@ Se solicitó efectuar la disponibilización de los siguientes endpoints a travé
 
   def retorno(pelicula): '''Ingresas la pelicula, retornando la inversion, la ganancia, el retorno y el año en el que se lanzo''' return {'pelicula':pelicula, 'inversion':respuesta, 'ganacia':respuesta,'retorno':respuesta, 'anio':respuesta}
 
-El código para correr la API dentro de FastAPI se puede visualizar aqui: 
+El código para correr la API dentro de FastAPI se puede visualizar aqui: https://pi-ml-ops-i9ar.onrender.com
 
